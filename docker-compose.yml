@@ -1,0 +1,62 @@
+version: '3.9'
+services:
+  client:
+    build: client
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./client:/usr/app
+      - /usr/app/build
+      - /usr/app/node_modules
+  event-bus:
+    build: event-bus
+    volumes:
+      - ./event-bus:/usr/app
+      - /usr/app/node_modules
+  events:
+    build: events
+    ports:
+      - '3004:3004'
+    volumes:
+      - ./events:/usr/app
+      - /usr/app/node_modules
+  gmail:
+    build: gmail
+    ports:
+      - '3002:3002'
+    volumes:
+      - ./gmail:/usr/app
+      - /usr/app/node_modules
+  people:
+    build: people
+    ports:
+      - '3001:3001'
+    volumes:
+      - ./people:/usr/app
+      - /usr/app/node_modules
+  yelp:
+    build: yelp
+    ports:
+      - '3003:3003'
+    volumes:
+      - ./yelp:/usr/app
+      - /usr/app/node_modules
+
+  events-db:
+    image: mongo:latest
+    volumes:
+      - events-data:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: eventadmin
+      MONGO_INITDB_ROOT_PASSWORD: event
+  people-db:
+    image: mongo:latest
+    volumes:
+      - people-data:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: people
+      MONGO_INITDB_ROOT_PASSWORD: password
+
+volumes:
+  events-data:
+  people-data:

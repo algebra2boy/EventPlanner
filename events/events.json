@@ -1,0 +1,50 @@
+{
+    "d434934c-0c06-4e7f-9b3b-11a57e362d56": {
+        "event_id": "d434934c-0c06-4e7f-9b3b-11a57e362d56",
+        "data": {
+            "eventName": "Yongye's birthday",
+            "startDateString": "2023-08-16",
+            "endDateString": "2023-08-16",
+            "imageUrl": "https://www.seriouseats.com/thmb/q67ofN0WLLb68mKvSvKNDg2q2b0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__11__BakedOccasions_BirthdayCake-02af7038d93647d9a7339f0802b03079.jpg",
+            "locationName": "Boston Downtown",
+            "locationDetails": "Everyone should come to Downtown and we will watch a movive together and get some cake!",
+            "signUpOnLine": false
+        }
+    },
+    "446096cc-5764-4d40-83b3-c45d5b83c2a9": {
+        "event_id": "446096cc-5764-4d40-83b3-c45d5b83c2a9",
+        "data": {
+            "eventName": "Food Market",
+            "startDateString": "2023-08-23",
+            "endDateString": "2023-08-31",
+            "imageUrl": "https://whimsyandspice.com/wp-content/uploads/2022/08/33-Smart-And-Delicious-Graduation-Party-Food-Ideas.jpg",
+            "locationName": "Haymarket",
+            "locationDetails": "Come to this place to get some cheapest and finest vegetables",
+            "signUpOnLine": true
+        }
+    },
+    "1241f2fb-cefb-4284-ab35-3ef484bbf209": {
+        "event_id": "1241f2fb-cefb-4284-ab35-3ef484bbf209",
+        "data": {
+            "eventName": "Gym",
+            "startDateString": "2023-08-16",
+            "endDateString": "2023-08-16",
+            "imageUrl": "https://bdc2020.o0bc.com/wp-content/uploads/2022/12/DSC00895-63af132aacc67-768x432.jpg",
+            "locationName": "YMCA",
+            "locationDetails": "Let's go to gym and get some gains",
+            "signUpOnLine": true
+        }
+    },
+    "edef2d17-ff13-47d6-a562-0bd0e27dddd3": {
+        "event_id": "edef2d17-ff13-47d6-a562-0bd0e27dddd3",
+        "data": {
+            "eventName": "Japanese sushi",
+            "startDateString": "2023-08-20",
+            "endDateString": "2023-08-20",
+            "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/c2LrRTPt19_tdjdxIqr7Fw/o.jpg",
+            "locationName": "Tora Japanese Restaurant\t",
+            "locationDetails": "Looks like they have some really good sushi in downtown!",
+            "signUpOnLine": true
+        }
+    }
+}
