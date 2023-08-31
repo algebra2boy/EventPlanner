@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import logger from "morgan";
-import customLogger from "./logs/winstonLogger.js";
+import customLogger from "./winstonLogger.js";
 import expressWinston from "express-winston";
 import { checkValidParameter } from "./helper.js";
 import { v4 as uuidv4 } from 'uuid';

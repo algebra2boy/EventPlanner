@@ -1,6 +1,6 @@
 import express from "express";
 import logger from "morgan";
-import customLogger from "./logs/winstonLogger.js";
+import customLogger from "./winstonLogger.js";
 import expressWinston from "express-winston";
 
 const app = express();

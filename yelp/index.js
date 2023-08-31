@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import logger from "morgan";
 import * as dotenv from 'dotenv';
-import customLogger from "./logs/winstonLogger.js";
+import customLogger from "./winstonLogger.js";
 import expressWinston from "express-winston";
 
 dotenv.config()  // load environment variables 
