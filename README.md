@@ -25,6 +25,11 @@ how to remove all unused volumes:
 docker volume prune -a
 ```
 
+# Dockerfile
+- Run `docker compose -f docker-compose.dev.yml up` in dev mode
+- Why is the `context` keyword used?
+    - The context keyword is important when you are specifying a Dockerfile that is different from the default (Dockerfile). The context represents the directory that Docker Compose uses as the build context. This is typically the directory where your application code resides and where your Dockerfile is located. When you specify a custom Dockerfile using the dockerfile keyword, it's assumed that this Dockerfile is located in the directory defined by context. Without the context keyword, Docker Compose wouldn't know where to find the Dockerfile you're referencing.
+
 # More About This Project
 
 [Where my ideas come from for this project?](https://github.com/algebra2boy/EventPlanner/blob/main/Ideas.md)
