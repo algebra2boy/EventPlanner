@@ -1,8 +1,8 @@
 <script>
   import { onMount } from "svelte";
   import axios from "axios";
-  import { EventStore } from "../../../stores/store.js";
-  import { convertDateToString } from "$lib/utils/convertDate.js";
+  import { EventStore } from "$stores/store.js";
+  import { convertDateToString } from "$utils/convertDate.js";
 
   // event card information
   let eventName = "";

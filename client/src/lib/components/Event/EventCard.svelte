@@ -1,6 +1,6 @@
 <script>
-  import Modal from "$lib/components/Modal/PopUpModal.svelte";
-  import { PeopleStore } from "../../../stores/store.js";
+  import Modal from "$components/Modal/PopUpModal.svelte";
+  import { PeopleStore } from "$stores/store.js";
   import axios from "axios";
   export let event = {};
   export let id; // the event id

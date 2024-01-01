@@ -1,5 +1,5 @@
 <script>
-  import { YelpStore } from "../../../stores/store.js";
+  import { YelpStore } from "$stores/store.js";
   let business = []; // an array of business
 
   YelpStore.subscribe((_yelpData) => {

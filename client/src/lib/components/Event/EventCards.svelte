@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { EventStore } from "../../../stores/store";
+  import { EventStore } from "$stores/store.js";
   import axios from "axios";
   import EventCard from "./EventCard.svelte";
 
