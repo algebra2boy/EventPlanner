@@ -58,7 +58,7 @@
 
 			<div class="form-group">
 				<input
-					idå="term"
+					id="term"
 					name="term"
 					type="text"
 					class="form-control"
