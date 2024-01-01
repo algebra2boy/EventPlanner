@@ -1,6 +1,6 @@
 <script>
   import axios from "axios";
-  import { YelpStore } from "../store.js";
+  import { YelpStore } from "../../../stores/store";
 
   let location = ""; // this string indicates the geographic area to be used when searching for businesses.
   let limit = 1; // Number of results to return.

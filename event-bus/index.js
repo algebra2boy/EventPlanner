@@ -21,6 +21,9 @@ const servicePorts = [
     { "name": "yelp", port: 3003 },
 ]
 
+app.get("/hello", (req, res) => {
+    res.send("HELLO");
+});
 
 app.post("/events", async (req, res) => {
     // the type of the event from each microservice

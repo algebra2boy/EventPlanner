@@ -12,4 +12,4 @@ COPY ./ ./
 # need the build the front end folder
 RUN npm run build
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "dev", "--", "--host"]
